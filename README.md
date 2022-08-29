@@ -1,4 +1,5 @@
-# c214_teste_mock
+# Python unit tests with mock.
+
 Testes Unitários utilizando mock.
 Para rodar:
 
