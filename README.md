@@ -1,6 +1,5 @@
-# Python unit tests with mock.
+# Testes Unitários utilizando mock
 
-Testes Unitários utilizando mock.
 Para rodar:
 
    ```bash
