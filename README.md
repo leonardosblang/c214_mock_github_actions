@@ -7,5 +7,5 @@ Para rodar use o seguinte comando na pasta principal:
 
    ```
 <p align="center">
-  <img height="520" src="images/CAPTURA.png" />
+  <img height="520" src="images/Capture.png" />
 </p>
