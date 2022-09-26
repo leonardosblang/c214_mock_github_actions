@@ -10,5 +10,5 @@ Para rodar use o seguinte comando na pasta principal:
 
    ```
 <p align="center">
-  <img height="256" src="images/imagem1.PNG" />
+  <img height="256" src="images/imagem1.png" />
 </p>
