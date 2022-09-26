@@ -75,5 +75,5 @@ jobs:
     - run: | 
            sudo apt-get install mailutils
            echo $EMAIL
-            sh scripts/shell.sh
+           sh scripts/shell.sh
 
