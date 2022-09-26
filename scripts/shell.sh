@@ -1,5 +1,4 @@
 ls
-cd test
 echo "Installing email"
 sudo apt-get install mailutils
 echo "End of installating"
