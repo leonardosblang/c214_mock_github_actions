@@ -3,7 +3,7 @@
 
 name: Python package
 env:
- EMAIL: ${{ secrets.EMAIL}}
+ EMAIL: ${{ EMAIL}}
 on:
   push:
     branches: [ "master" ]
