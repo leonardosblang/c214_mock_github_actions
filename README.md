@@ -1,4 +1,4 @@
-# Testes Unitários utilizando mock
+# Testing, building and sending emails with github actions
 
 Para rodar use o seguinte comando na pasta principal:
 
