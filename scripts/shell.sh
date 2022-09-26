@@ -1,2 +1,3 @@
+ls
 echo "Installing email"
-mutt -s "Test Email" leonardo.sabra@ges.inatel.br
+echo "Sending E-Mail" | mail -s "subject: Calculator App" leonardo.sabra@ges.inatel.br
