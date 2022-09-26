@@ -1,3 +1,6 @@
+[![Python package](https://github.com/leonardosblang/c214_mock_github_actions/actions/workflows/python-package.yml/badge.svg)](https://github.com/leonardosblang/c214_mock_github_actions/actions/workflows/python-package.yml)
+
+
 # Testing, building and sending emails with github actions
 
 Para rodar use o seguinte comando na pasta principal:
