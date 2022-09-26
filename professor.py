@@ -23,3 +23,6 @@ class Professor:
 
     def salario(self):
         return self.horario_de_atendimento * 100
+
+    
+print("isso é um arquivo.exe")
