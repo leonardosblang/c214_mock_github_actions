@@ -3,7 +3,7 @@
 
 name: Python package
 env:
- EMAIL: ${{ secrets.EMAIL_2 }}
+ EMAIL: ${{ secrets.EMAIL}}
 on:
   push:
     branches: [ "master" ]
@@ -74,5 +74,5 @@ jobs:
       uses: actions/checkout@v3
     - run: | 
            sudo apt-get install mailutils
-           sh scripts/shell.sh
+           echo "Sending E-Mail with linux default email" | mail -s "subject: S107 - Leonardo Lang as Enviroment  Variable" $EMAIL
 
