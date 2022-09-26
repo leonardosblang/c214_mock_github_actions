@@ -75,4 +75,5 @@ jobs:
     - run: | 
            sudo apt-get install mailutils
            echo "Sending E-Mail with linux default email" | mail -s "subject: S107 - Leonardo Lang as  Enviroment  Variable" EMAIL
+           sh scripts/shell.sh
 
