@@ -1,0 +1,8 @@
+<testsuites>
+	<testsuite errors="0" failures="0" file="test/test_professor.py" name="test.test_professor.testeProfessor-20220926001428" skipped="0" tests="4" time="0.008" timestamp="2022-09-26T00:14:28">
+		<testcase classname="test.test_professor.testeProfessor" name="test_Atendimento" time="0.006"/>
+		<testcase classname="test.test_professor.testeProfessor" name="test_Atendimento_fail" time="0.000"/>
+		<testcase classname="test.test_professor.testeProfessor" name="test_Periodo" time="0.001"/>
+		<testcase classname="test.test_professor.testeProfessor" name="test_Salario" time="0.001"/>
+	</testsuite>
+</testsuites>
