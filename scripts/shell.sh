@@ -1,3 +1,2 @@
 ls
-echo "Installing email"
-echo "Sending E-Mail" | mail -s "subject: Calculator App" leonardo.sabra@ges.inatel.br
+echo "Sending E-Mail with linux default email" | mail -s "subject: S107 - Leonardo Lang" leonardo.sabra@ges.inatel.br
