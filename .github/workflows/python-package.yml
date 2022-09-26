@@ -68,6 +68,7 @@ jobs:
                   
   shell-scripts:
     runs-on: ubuntu-latest
+    needs: build
     steps:
     - name: Execute email script
       uses: actions/checkout@v3
