@@ -3,12 +3,6 @@
 
 # Testing, building and sending emails with github actions
 
-Para rodar use o seguinte comando na pasta principal:
-
-   ```bash
-   python -m unittest 
-
-   ```
 <p align="center">
   <img height="512" src="images/imagem1.png" />
 </p>
