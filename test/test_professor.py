@@ -1,8 +1,9 @@
 import mock
 import softest
-
+import io
 from professor import Professor
-
+import xmlrunner
+from xmlrunner.extra.xunit_plugin import transform
 # objeto mock criado usando como referencia a classe Professor
 mock_professor = mock.Mock(spec=Professor)
 
@@ -43,3 +44,10 @@ class testeProfessor(softest.TestCase):
 
 if __name__ == '__main__':
     softest.main()
+    out = io.BytesIO()
+    softest.main(
+        testRunner=xmlrunner.XMLTestRunner(output=out),
+        failfast=False, buffer=False, catchbreak=False, exit=False
+    )
+    with open("TEST-report.xml", "wb") as report:
+        report.write(transform(out.getvalue()))
