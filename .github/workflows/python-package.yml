@@ -71,6 +71,7 @@ jobs:
     steps:
     - name: Execute email script
       uses: actions/checkout@v3
-    - run: sudo apt-get install mutt 
+    - run: | 
+           sudo apt-get install mutt 
            sh scripts/shell.sh
 
