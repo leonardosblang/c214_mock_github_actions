@@ -37,5 +37,5 @@ if __name__ == '__main__.py':
         failfast=False, buffer=False, catchbreak=False, exit=False
     )
     print("Testes unitarios usando mock 2")
-    with open("TEST-report.xml", "wb") as report:
+    with open("unit-test.xml", "wb") as report:
         report.write(transform(out.getvalue()))
